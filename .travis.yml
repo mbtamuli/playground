@@ -1,0 +1,10 @@
+language: bash
+script:
+  - pushd bash > /dev/null 2>&1
+  - ./run_tests.sh
+  - popd > /dev/null 2>&1
+sudo: required
+notifications:
+  slack:
+    rooms:
+      secure: H6R5tqWO7xlsnqX8nSbVZDjSGjE7spU7xN6ynBWOXyB8iPFX/RH9I9AZXPQhwVAuFRzJ5U6aPSk4zo4eSABkwJEbPKzHffeJlEsHsPoIyVMXu6l6Q2jQQFSR8nrUMRqP24Gl9yX5tWRekC5MFaoFZZiGhX+pD7PBCz047ldLrQ+BDdzfE6JPw6oyRo1ME8GizQ2Aw9dBmwOVbZLvTp/bWcHY9husmYV/eVThjoZV0DBdicykoAMGGRO2etd6wbxA7NFE8OAtLDEZUqv3IRAvmQVt1nEamuGJObjX+gWoIS79VJFPM0aUEBh0GmgB/vr4IjqJCsMKuLYq5a7vxsOXotiR4B9EBFuCV+xBsJWUoz5mRyKtpBRs3xpoueUcmKbfsPu7bpu9Yiqug3J3QtrLasyBYAGON2vogdz2gN2WUR8BA9SwC9YzThhQ8o08gf5GavYdZm6KseOMiQrADw8AxVTVPPszsFsPouXOo6HlFs7s7MVvUzlqBv61USoo+rrV+0VztofyviOzsnYU9q02nOW382X4Cs64aZPwapwX3bewwuw5OCcFMeA/B66Q7X407CG0Kt9xyks0v60xBIxySTwVhSGZvVxKn/vzrD9nBPqxH2kQa+pKIOXkESyWyt2uhKAWCgmUWB7U0ib4KOqD/yfGxKVblsMcU5pzq2te3Qc=

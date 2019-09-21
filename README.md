@@ -1,3 +1,3 @@
-# Playground
+This is supposed to be a repository for my own work.
 
-Hello World
+Basically bash, python scripts, other snippets or anything new I learn.

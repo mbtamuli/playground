@@ -1,0 +1,681 @@
+OK
+OK
+OK
+OK
+Hit:1 http://ppa.launchpad.net/danielrichter2007/grub-customizer/ubuntu xenial InRelease
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://ppa.launchpad.net/saiarcot895/myppa/ubuntu xenial InRelease
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [94.5 kB]
+Get:5 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease [17.5 kB]
+Hit:6 http://dl.google.com/linux/chrome/deb stable Release
+Get:8 http://ppa.launchpad.net/webupd8team/brackets/ubuntu xenial InRelease [17.5 kB]
+Hit:9 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [95.7 kB]
+Get:11 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease [17.6 kB]
+Get:12 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease [17.6 kB]
+Get:13 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial/main amd64 Packages [592 B]
+Get:14 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial/main i386 Packages [592 B]
+Get:15 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial/main Translation-en [332 B]
+Get:16 http://ppa.launchpad.net/webupd8team/brackets/ubuntu xenial/main amd64 Packages [756 B]
+Get:17 http://ppa.launchpad.net/webupd8team/brackets/ubuntu xenial/main i386 Packages [760 B]
+Get:18 http://ppa.launchpad.net/webupd8team/brackets/ubuntu xenial/main Translation-en [308 B]
+Get:19 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial/main amd64 Packages [2,868 B]
+Get:20 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial/main i386 Packages [2,868 B]
+Get:21 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial/main Translation-en [1,260 B]
+Get:22 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial/main amd64 Packages [520 B]
+Get:23 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial/main i386 Packages [520 B]
+Get:24 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial/main Translation-en [276 B]
+Hit:25 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Get:26 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [324 kB]
+Get:27 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [320 kB]
+Get:28 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [192 kB]
+Get:29 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [155 kB]
+Get:30 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [297 kB]
+Get:31 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [294 kB]
+Get:32 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [71.6 kB]
+Get:33 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [75.9 kB]
+Get:34 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [5,488 B]
+Get:35 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages [4,288 B]
+Fetched 2,011 kB in 13s (144 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  gsfonts-x11 java-common
+Suggested packages:
+  binfmt-support visualvm ttf-baekmuk | ttf-unfonts | ttf-unfonts-core
+  ttf-kochi-gothic | ttf-sazanami-gothic ttf-kochi-mincho
+  | ttf-sazanami-mincho ttf-arphic-uming
+The following NEW packages will be installed:
+  gsfonts-x11 java-common oracle-java8-installer
+0 upgraded, 3 newly installed, 0 to remove and 336 not upgraded.
+Need to get 38.2 kB of archives.
+After this operation, 226 kB of additional disk space will be used.
+Get:1 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial/main amd64 oracle-java8-installer all 8u92+8u91arm-2~really8u91~webupd8~0 [23.1 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 java-common all 0.56ubuntu2 [7,742 B]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 gsfonts-x11 all 0.24 [7,314 B]
+Preconfiguring packages ...
+Fetched 38.2 kB in 0s (72.8 kB/s)
+Selecting previously unselected package java-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 175050 files and directories currently installed.)
+Preparing to unpack .../java-common_0.56ubuntu2_all.deb ...
+Unpacking java-common (0.56ubuntu2) ...
+Selecting previously unselected package oracle-java8-installer.
+Preparing to unpack .../oracle-java8-installer_8u92+8u91arm-2~really8u91~webupd8~0_all.deb ...
+[?1049h[1;24r[4l(B)0[?25l[m[37m[40m[1;24r[H[J[1;1H[1m[37m[45m                                                                                [2;1H                                                                                [3;1H                                                                                [4;1H                                                                                [5;1H                                                                                [6;1H                                                                                [7;1H                                                                                [8;1H                                                                                [9;1H                                                                                [10;1H                                                                                [11;1H                                                                                [12;1H                                                                                [13;1H                                                                                [14;1H                                                                                [15;1H                                                                                [16;1H                                                                                [17;1H                                                                                [18;1H                                                                                [19;1H                                                                                [20;1H                                                                                [21;1H                                                                                [22;1H                                                                                [23;1H                                                                                [24;1H                                                                               [24;79H [4h [4l[1;1H[m[37m[45mPackage configuration[6;3H[30m[47m┌──────────────────┤ [31mConfiguring oracle-java8-installer[30m ├──────────────────┐[7;3H│                                                                          │[1m[37m[40m [8;3H[m[30m[47m│ Oracle Binary Code License Agreement for the Java SE Platform Products   │[1m[37m[40m [9;3H[m[30m[47m│ and JavaFX                                                               │[1m[37m[40m [10;3H[m[30m[47m│                                                                          │[1m[37m[40m [11;3H[m[30m[47m│                                                                          │[1m[37m[40m [12;3H[m[30m[47m│                                                                          │[1m[37m[40m [13;3H[m[30m[47m│ You MUST agree to the license available in http://java.com/license if    │[1m[37m[40m [14;3H[m[30m[47m│ you want to use Oracle JDK.                                              │[1m[37m[40m [15;3H[m[30m[47m│                                                                          │[1m[37m[40m [16;3H[m[30m[47m│                                  [37m[41m<Ok>[30m[47m                                    │[1m[37m[40m [17;3H[m[30m[47m│                                                                          │[1m[37m[40m [18;3H[m[30m[47m└──────────────────────────────────────────────────────────────────────────┘[1m[37m[40m [19;4H                                                                            [16;39H[34h[?25h[24;1H[m[37m[40m[m[39;49m                                                                               [?1049l[?1049h[1;24r[4l(B)0[?25l[m[37m[40m[1;24r[H[J[1;1H[1m[37m[45m                                                                                [2;1H                                                                                [3;1H                                                                                [4;1H                                                                                [5;1H                                                                                [6;1H                                                                                [7;1H                                                                                [8;1H                                                                                [9;1H                                                                                [10;1H                                                                                [11;1H                                                                                [12;1H                                                                                [13;1H                                                                                [14;1H                                                                                [15;1H                                                                                [16;1H                                                                                [17;1H                                                                                [18;1H                                                                                [19;1H                                                                                [20;1H                                                                                [21;1H                                                                                [22;1H                                                                                [23;1H                                                                                [24;1H                                                                               [24;79H [4h [4l[1;1H[m[37m[45mPackage configuration[7;2H[30m[47m┌──────────────────┤ [31mConfiguring oracle-java8-installer[30m ├───────────────────┐[8;2H│                                                                           │[1m[37m[40m [9;2H[m[30m[47m│ In order to install this package, you must accept the license terms, the  │[1m[37m[40m [10;2H[m[30m[47m│ "Oracle Binary Code License Agreement for the Java SE Platform Products   │[1m[37m[40m [11;2H[m[30m[47m│ and JavaFX ". Not accepting will cancel the installation.                 │[1m[37m[40m [12;2H[m[30m[47m│                                                                           │[1m[37m[40m [13;2H[m[30m[47m│ Do you accept the Oracle Binary Code license terms?                       │[1m[37m[40m [14;2H[m[30m[47m│                                                                           │[1m[37m[40m [15;2H[m[30m[47m│                    <Yes>                       [37m[41m<No>[30m[47m                       │[1m[37m[40m [16;2H[m[30m[47m│                                                                           │[1m[37m[40m [17;2H[m[30m[47m└───────────────────────────────────────────────────────────────────────────┘[1m[37m[40m [18;3H                                                                             [15;52H[34h[?25h[24;1H[m[37m[40m[m[39;49m                                                                               [?1049l[?1049h[1;24r[4l(B)0[?25l[m[37m[40m[1;24r[H[J[1;1H[1m[37m[45m                                                                                [2;1H                                                                                [3;1H                                                                                [4;1H                                                                                [5;1H                                                                                [6;1H                                                                                [7;1H                                                                                [8;1H                                                                                [9;1H                                                                                [10;1H                                                                                [11;1H                                                                                [12;1H                                                                                [13;1H                                                                                [14;1H                                                                                [15;1H                                                                                [16;1H                                                                                [17;1H                                                                                [18;1H                                                                                [19;1H                                                                                [20;1H                                                                                [21;1H                                                                                [22;1H                                                                                [23;1H                                                                                [24;1H                                                                               [24;79H [4h [4l[1;1H[m[37m[45mPackage configuration[7;6H[30m[47m┌───────────────┤ [31mConfiguring oracle-java8-installer[30m ├───────────────┐[8;6H│                                                                    │[1m[37m[40m [9;6H[m[30m[47m│ Declined "Oracle Binary Code License for Java"                     │[1m[37m[40m [10;6H[m[30m[47m│                                                                    │[1m[37m[40m [11;6H[m[30m[47m│ If you do not agree to the license terms you cannot install this   │[1m[37m[40m [12;6H[m[30m[47m│ software.                                                          │[1m[37m[40m [13;6H[m[30m[47m│                                                                    │[1m[37m[40m [14;6H[m[30m[47m│ The installation of this package will be canceled.                 │[1m[37m[40m [15;6H[m[30m[47m│                                                                    │[1m[37m[40m [16;6H[m[30m[47m│                               [37m[41m<Ok>[30m[47m                                 │[1m[37m[40m [17;6H[m[30m[47m│                                                                    │[1m[37m[40m [18;6H[m[30m[47m└────────────────────────────────────────────────────────────────────┘[1m[37m[40m [19;7H                                                                      [16;39H[34h[?25h[24;1H[m[37m[40m[m[39;49m                                                                               [?1049luser did not accept the oracle-license-v1-1 license
+dpkg: error processing archive /var/cache/apt/archives/oracle-java8-installer_8u92+8u91arm-2~really8u91~webupd8~0_all.deb (--unpack):
+ subprocess new pre-installation script returned error exit status 1
+Selecting previously unselected package gsfonts-x11.
+Preparing to unpack .../gsfonts-x11_0.24_all.deb ...
+Unpacking gsfonts-x11 (0.24) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for fontconfig (2.11.94-0ubuntu1) ...
+Errors were encountered while processing:
+ /var/cache/apt/archives/oracle-java8-installer_8u92+8u91arm-2~really8u91~webupd8~0_all.deb
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following package was automatically installed and is no longer required:
+  java-common
+Use 'sudo apt autoremove' to remove it.
+Suggested packages:
+  nodejs git
+The following NEW packages will be installed:
+  atom
+0 upgraded, 1 newly installed, 0 to remove and 336 not upgraded.
+2 not fully installed or removed.
+Need to get 56.5 MB of archives.
+After this operation, 56.6 MB of additional disk space will be used.
+Get:1 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial/main amd64 atom amd64 1.8.0-1~webupd8~0 [56.5 MB]
+Fetched 56.5 MB in 2min 4s (452 kB/s)
+Selecting previously unselected package atom.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 175098 files and directories currently installed.)
+Preparing to unpack .../atom_1.8.0-1~webupd8~0_amd64.deb ...
+Unpacking atom (1.8.0-1~webupd8~0) ...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160415-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1) ...
+Setting up gsfonts-x11 (0.24) ...
+Setting up java-common (0.56ubuntu2) ...
+Setting up atom (1.8.0-1~webupd8~0) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following package was automatically installed and is no longer required:
+  java-common
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  brackets
+0 upgraded, 1 newly installed, 0 to remove and 336 not upgraded.
+Need to get 31.3 MB of archives.
+After this operation, 122 MB of additional disk space will be used.
+Get:1 http://ppa.launchpad.net/webupd8team/brackets/ubuntu xenial/main amd64 brackets amd64 1.7.0libgcrypt11+1-16898+1~webupd8~0 [31.3 MB]
+Fetched 31.3 MB in 57s (541 kB/s)
+Selecting previously unselected package brackets.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 175110 files and directories currently installed.)
+Preparing to unpack .../brackets_1.7.0libgcrypt11+1-16898+1~webupd8~0_amd64.deb ...
+Unpacking brackets (1.7.0libgcrypt11+1-16898+1~webupd8~0) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1) ...
+Setting up brackets (1.7.0libgcrypt11+1-16898+1~webupd8~0) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following package was automatically installed and is no longer required:
+  java-common
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  sublime-text-installer
+0 upgraded, 1 newly installed, 0 to remove and 336 not upgraded.
+Need to get 9,482 B of archives.
+After this operation, 26.6 kB of additional disk space will be used.
+Get:1 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial/main amd64 sublime-text-installer all 3114-2~webupd8~0 [9,482 B]
+Preconfiguring packages ...
+Fetched 9,482 B in 0s (32.2 kB/s)
+Selecting previously unselected package sublime-text-installer.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 176957 files and directories currently installed.)
+Preparing to unpack .../sublime-text-installer_3114-2~webupd8~0_all.deb ...
+Downloading...
+--2016-07-19 07:39:18--  https://download.sublimetext.com/sublime_text_3_build_3114_x64.tar.bz2
+Resolving download.sublimetext.com (download.sublimetext.com)... 104.236.0.104
+Connecting to download.sublimetext.com (download.sublimetext.com)|104.236.0.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9328481 (8.9M) [application/octet-stream]
+Saving to: ‘sublime_text_3_build_3114_x64.tar.bz2’
+
+     0K ........ ........ ........ ........ ........ ........ 33%  537K 11s
+  3072K ........ ........ ........ ........ ........ ........ 67%  573K 5s
+  6144K ........ ........ ........ ........ ........ ......  100%  511K=17s
+
+2016-07-19 07:39:36 (539 KB/s) - ‘sublime_text_3_build_3114_x64.tar.bz2’ saved [9328481/9328481]
+
+Download done.
+Removing outdated cached downloads...
+sublime_text_3/
+sublime_text_3/Packages/
+sublime_text_3/Packages/Pascal.sublime-package
+sublime_text_3/Packages/Matlab.sublime-package
+sublime_text_3/Packages/Go.sublime-package
+sublime_text_3/Packages/Graphviz.sublime-package
+sublime_text_3/Packages/Haskell.sublime-package
+sublime_text_3/Packages/Clojure.sublime-package
+sublime_text_3/Packages/TCL.sublime-package
+sublime_text_3/Packages/C++.sublime-package
+sublime_text_3/Packages/C#.sublime-package
+sublime_text_3/Packages/Textile.sublime-package
+sublime_text_3/Packages/Text.sublime-package
+sublime_text_3/Packages/XML.sublime-package
+sublime_text_3/Packages/D.sublime-package
+sublime_text_3/Packages/Lisp.sublime-package
+sublime_text_3/Packages/Objective-C.sublime-package
+sublime_text_3/Packages/Vintage.sublime-package
+sublime_text_3/Packages/Groovy.sublime-package
+sublime_text_3/Packages/Theme - Default.sublime-package
+sublime_text_3/Packages/LaTeX.sublime-package
+sublime_text_3/Packages/Color Scheme - Default.sublime-package
+sublime_text_3/Packages/Python.sublime-package
+sublime_text_3/Packages/R.sublime-package
+sublime_text_3/Packages/PHP.sublime-package
+sublime_text_3/Packages/ActionScript.sublime-package
+sublime_text_3/Packages/OCaml.sublime-package
+sublime_text_3/Packages/Language - English.sublime-package
+sublime_text_3/Packages/Rails.sublime-package
+sublime_text_3/Packages/Regular Expressions.sublime-package
+sublime_text_3/Packages/Erlang.sublime-package
+sublime_text_3/Packages/Batch File.sublime-package
+sublime_text_3/Packages/Markdown.sublime-package
+sublime_text_3/Packages/ASP.sublime-package
+sublime_text_3/Packages/Perl.sublime-package
+sublime_text_3/Packages/Ruby.sublime-package
+sublime_text_3/Packages/Makefile.sublime-package
+sublime_text_3/Packages/Default.sublime-package
+sublime_text_3/Packages/Scala.sublime-package
+sublime_text_3/Packages/YAML.sublime-package
+sublime_text_3/Packages/JavaScript.sublime-package
+sublime_text_3/Packages/ShellScript.sublime-package
+sublime_text_3/Packages/Lua.sublime-package
+sublime_text_3/Packages/Diff.sublime-package
+sublime_text_3/Packages/RestructuredText.sublime-package
+sublime_text_3/Packages/SQL.sublime-package
+sublime_text_3/Packages/CSS.sublime-package
+sublime_text_3/Packages/Rust.sublime-package
+sublime_text_3/Packages/Java.sublime-package
+sublime_text_3/Packages/AppleScript.sublime-package
+sublime_text_3/Packages/HTML.sublime-package
+sublime_text_3/changelog.txt
+sublime_text_3/sublime_text
+sublime_text_3/python3.3.zip
+sublime_text_3/plugin_host
+sublime_text_3/crash_reporter
+sublime_text_3/sublime_text.desktop
+sublime_text_3/Icon/
+sublime_text_3/Icon/16x16/
+sublime_text_3/Icon/16x16/sublime-text.png
+sublime_text_3/Icon/32x32/
+sublime_text_3/Icon/32x32/sublime-text.png
+sublime_text_3/Icon/128x128/
+sublime_text_3/Icon/128x128/sublime-text.png
+sublime_text_3/Icon/48x48/
+sublime_text_3/Icon/48x48/sublime-text.png
+sublime_text_3/Icon/256x256/
+sublime_text_3/Icon/256x256/sublime-text.png
+sublime_text_3/sublime.py
+sublime_text_3/sublime_plugin.py
+Unpacking sublime-text-installer (3114-2~webupd8~0) ...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160415-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Setting up sublime-text-installer (3114-2~webupd8~0) ...
+[apt-fast 07:48:21] 
+ Working... this may take a while.
+
+No files to download.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  java-common
+Suggested packages:
+  binfmt-support visualvm ttf-baekmuk | ttf-unfonts | ttf-unfonts-core
+  ttf-kochi-gothic | ttf-sazanami-gothic ttf-kochi-mincho
+  | ttf-sazanami-mincho ttf-arphic-uming
+The following NEW packages will be installed:
+  java-common oracle-java8-installer
+Preconfiguring packages ...
+0 upgraded, 2 newly installed, 0 to remove and 336 not upgraded.
+Need to get 0 B/30.8 kB of archives.
+After this operation, 128 kB of additional disk space will be used.
+Selecting previously unselected package java-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 176987 files and directories currently installed.)
+Preparing to unpack .../java-common_0.56ubuntu2_all.deb ...
+Unpacking java-common (0.56ubuntu2) ...
+Preparing to unpack .../oracle-java8-installer_8u92+8u91arm-2~really8u91~webupd8~0_all.deb ...
+oracle-license-v1-1 license has already been accepted
+Unpacking oracle-java8-installer (8u92+8u91arm-2~really8u91~webupd8~0) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160415-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for shared-mime-info (1.5-2) ...
+Setting up java-common (0.56ubuntu2) ...
+Setting up oracle-java8-installer (8u92+8u91arm-2~really8u91~webupd8~0) ...
+No /var/cache/oracle-jdk8-installer/wgetrc file found.
+Creating /var/cache/oracle-jdk8-installer/wgetrc and
+using default oracle-java8-installer wgetrc settings for it.
+Downloading Oracle Java 8...
+--2016-07-19 07:48:52--  http://download.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz
+Resolving download.oracle.com (download.oracle.com)... 115.249.20.235, 115.249.20.233
+Connecting to download.oracle.com (download.oracle.com)|115.249.20.235|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://edelivery.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz [following]
+--2016-07-19 07:48:52--  https://edelivery.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz
+Resolving edelivery.oracle.com (edelivery.oracle.com)... 184.50.118.170, 2600:140f:4:18a::2d3e, 2600:140f:4:185::2d3e
+Connecting to edelivery.oracle.com (edelivery.oracle.com)|184.50.118.170|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://edelivery.oracle.com/osdc-otn/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz [following]
+--2016-07-19 07:48:53--  https://edelivery.oracle.com/osdc-otn/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz
+Reusing existing connection to edelivery.oracle.com:443.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://download.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz?AuthParam=1468894872_949b0a3e84a0b88f610ac6535837ad65 [following]
+--2016-07-19 07:48:54--  http://download.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz?AuthParam=1468894872_949b0a3e84a0b88f610ac6535837ad65
+Connecting to download.oracle.com (download.oracle.com)|115.249.20.235|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 181367942 (173M) [application/x-gzip]
+Saving to: ‘jdk-8u91-linux-x64.tar.gz’
+
+     0K ........ ........ ........ ........ ........ ........  1% 1.00M 2m50s
+  3072K ........ ........ ........ ........ ........ ........  3%  910K 2m57s
+  6144K ........ ........ ........ ........ ........ ........  5%  907K 2m58s
+  9216K ........ ........ ........ ........ ........ ........  6%  690K 3m11s
+ 12288K ........ ........ ........ ........ ........ ........  8%  931K 3m4s
+ 15360K ........ ........ ........ ........ ........ ........ 10% 1.05M 2m55s
+ 18432K ........ ........ ........ ........ ........ ........ 12%  906K 2m52s
+ 21504K ........ ........ ........ ........ ........ ........ 13%  991K 2m47s
+ 24576K ........ ........ ........ ........ ........ ........ 15%  904K 2m44s
+ 27648K ........ ........ ........ ........ ........ ........ 17%  885K 2m41s
+ 30720K ........ ........ ........ ........ ........ ........ 19%  867K 2m38s
+ 33792K ........ ........ ........ ........ ........ ........ 20%  648K 2m40s
+ 36864K ........ ........ ........ ........ ........ ........ 22%  448K 2m48s
+ 39936K ........ ........ ........ ........ ........ ........ 24%  450K 2m54s
+ 43008K ........ ........ ........ ........ ........ ........ 26% 1.28M 2m45s
+ 46080K ........ ........ ........ ........ ........ ........ 27% 1.23M 2m37s
+ 49152K ........ ........ ........ ........ ........ ........ 29%  630K 2m36s
+ 52224K ........ ........ ........ ........ ........ ........ 31%  321K 2m45s
+ 55296K ........ ........ ........ ........ ........ ........ 32%  805K 2m40s
+ 58368K ........ ........ ........ ........ ........ ........ 34%  993K 2m34s
+ 61440K ........ ........ ........ ........ ........ ........ 36%  702K 2m31s
+ 64512K ........ ........ ........ ........ ........ ........ 38%  676K 2m27s
+ 67584K ........ ........ ........ ........ ........ ........ 39% 1.01M 2m21s
+ 70656K ........ ........ ........ ........ ........ ........ 41%  965K 2m16s
+ 73728K ........ ........ ........ ........ ........ ........ 43%  929K 2m11s
+ 76800K ........ ........ ........ ........ ........ ........ 45%  981K 2m6s
+ 79872K ........ ........ ........ ........ ........ ........ 46%  946K 2m1s
+ 82944K ........ ........ ........ ........ ........ ........ 48%  527K 1m59s
+ 86016K ........ ........ ........ ........ ........ ........ 50%  436K 1m58s
+ 89088K ........ ........ ........ ........ ........ ........ 52%  865K 1m53s
+ 92160K ........ ........ ........ ........ ........ ........ 53%  987K 1m48s
+ 95232K ........ ........ ........ ........ ........ ........ 55%  957K 1m44s
+ 98304K ........ ........ ........ ........ ........ ........ 57% 1007K 99s
+101376K ........ ........ ........ ........ ........ ........ 58% 1.08M 94s
+104448K ........ ........ ........ ........ ........ ........ 60% 1.05M 89s
+107520K ........ ........ ........ ........ ........ ........ 62% 1.57M 84s
+110592K ........ ........ ........ ........ ........ ........ 64% 1.32M 79s
+113664K ........ ........ ........ ........ ........ ........ 65% 1.24M 75s
+116736K ........ ........ ........ ........ ........ ........ 67%  912K 71s
+119808K ........ ........ ........ ........ ........ ........ 69% 1.15M 66s
+122880K ........ ........ ........ ........ ........ ........ 71% 1.12M 62s
+125952K ........ ........ ........ ........ ........ ........ 72%  775K 59s
+129024K ........ ........ ........ ........ ........ ........ 74% 1.16M 54s
+132096K ........ ........ ........ ........ ........ ........ 76% 1.09M 50s
+135168K ........ ........ ........ ........ ........ ........ 78% 1.03M 47s
+138240K ........ ........ ........ ........ ........ ........ 79% 1.13M 43s
+141312K ........ ........ ........ ........ ........ ........ 81% 1.11M 39s
+144384K ........ ........ ........ ........ ........ ........ 83%  737K 35s
+147456K ........ ........ ........ ........ ........ ........ 84% 1.19M 31s
+150528K ........ ........ ........ ........ ........ ........ 86% 1008K 28s
+153600K ........ ........ ........ ........ ........ ........ 88%  916K 24s
+156672K ........ ........ ........ ........ ........ ........ 90% 1.01M 20s
+159744K ........ ........ ........ ........ ........ ........ 91% 1.06M 17s
+162816K ........ ........ ........ ........ ........ ........ 93% 1.16M 13s
+165888K ........ ........ ........ ........ ........ ........ 95%  770K 9s
+168960K ........ ........ ........ ........ ........ ........ 97%  834K 6s
+172032K ........ ........ ........ ........ ........ ........ 98% 1.09M 2s
+175104K ........ ........ ........ ......^[[A.                   100% 1.16M=3m24s
+
+2016-07-19 07:52:18 (866 KB/s) - ‘jdk-8u91-linux-x64.tar.gz’ saved [181367942/181367942]
+
+Download done.
+Removing outdated cached downloads...
+update-alternatives: error: no alternatives for java
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/ControlPanel to provide /usr/bin/ControlPanel (ControlPanel) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/javaws to provide /usr/bin/javaws (javaws) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/jcontrol to provide /usr/bin/jcontrol (jcontrol) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/jjs to provide /usr/bin/jjs (jjs) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/orbd to provide /usr/bin/orbd (orbd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/policytool to provide /usr/bin/policytool (policytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/servertool to provide /usr/bin/servertool (servertool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/tnameserv to provide /usr/bin/tnameserv (tnameserv) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/appletviewer to provide /usr/bin/appletviewer (appletviewer) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/extcheck to provide /usr/bin/extcheck (extcheck) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/idlj to provide /usr/bin/idlj (idlj) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/javafxpackager to provide /usr/bin/javafxpackager (javafxpackager) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/javah to provide /usr/bin/javah (javah) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/javapackager to provide /usr/bin/javapackager (javapackager) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jhat to provide /usr/bin/jhat (jhat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jmc to provide /usr/bin/jmc (jmc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jsadebugd to provide /usr/bin/jsadebugd (jsadebugd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/jvisualvm to provide /usr/bin/jvisualvm (jvisualvm) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/native2ascii to provide /usr/bin/native2ascii (native2ascii) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/rmic to provide /usr/bin/rmic (rmic) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/schemagen to provide /usr/bin/schemagen (schemagen) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/wsgen to provide /usr/bin/wsgen (wsgen) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/wsimport to provide /usr/bin/wsimport (wsimport) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-oracle/bin/xjc to provide /usr/bin/xjc (xjc) in auto mode
+Oracle JDK 8 installed
+update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpjp2.so to provide /usr/lib/mozilla/plugins/libjavaplugin.so (mozilla-javaplugin.so) in auto mode
+Oracle JRE 8 browser plugin installed
+Hit:1 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://ppa.launchpad.net/danielrichter2007/grub-customizer/ubuntu xenial InRelease
+Hit:4 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:5 http://dl.google.com/linux/chrome/deb stable Release
+Hit:6 http://ppa.launchpad.net/saiarcot895/myppa/ubuntu xenial InRelease
+Get:7 http://security.ubuntu.com/ubuntu xenial-security InRelease [94.5 kB]
+Hit:9 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:10 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Hit:11 http://ppa.launchpad.net/webupd8team/brackets/ubuntu xenial InRelease
+Hit:12 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease
+Hit:13 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Get:14 http://debian.sur5r.net/i3 xenial InRelease [6,464 B]
+Ign:14 http://debian.sur5r.net/i3 xenial InRelease
+Get:15 http://debian.sur5r.net/i3 xenial/universe amd64 Packages [5,474 B]
+Get:16 http://debian.sur5r.net/i3 xenial/universe i386 Packages [5,483 B]
+Fetched 112 kB in 1s (67.7 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  sur5r-keyring
+0 upgraded, 1 newly installed, 0 to remove and 336 not upgraded.
+Need to get 2,874 B of archives.
+After this operation, 17.4 kB of additional disk space will be used.
+WARNING: The following packages cannot be authenticated!
+  sur5r-keyring
+Authentication warning overridden.
+Get:1 http://debian.sur5r.net/i3 xenial/universe amd64 sur5r-keyring all 2015.12.29 [2,874 B]
+Fetched 2,874 B in 0s (8,788 B/s)
+Selecting previously unselected package sur5r-keyring.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177019 files and directories currently installed.)
+Preparing to unpack .../sur5r-keyring_2015.12.29_all.deb ...
+Unpacking sur5r-keyring (2015.12.29) ...
+Setting up sur5r-keyring (2015.12.29) ...
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://ppa.launchpad.net/danielrichter2007/grub-customizer/ubuntu xenial InRelease
+Get:3 http://debian.sur5r.net/i3 xenial InRelease [6,464 B]
+Hit:4 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:5 http://dl.google.com/linux/chrome/deb stable Release
+Get:6 http://security.ubuntu.com/ubuntu xenial-security InRelease [94.5 kB]
+Hit:7 http://ppa.launchpad.net/saiarcot895/myppa/ubuntu xenial InRelease
+Hit:8 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:10 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Hit:11 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:12 http://ppa.launchpad.net/webupd8team/brackets/ubuntu xenial InRelease
+Hit:13 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease
+Hit:14 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Fetched 101 kB in 1s (100.0 kB/s)
+Reading package lists...
+[apt-fast 07:54:47] 
+ Working... this may take a while.
+
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libxcb-xinerama0_1.11.1-1ubuntu1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libxcb-xinerama0_1.11.1-1ubuntu1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libconfuse-common_2.7-5_all.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libconfuse-common_2.7-5_all.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libxcb-cursor0_0.1.1-3ubuntu1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libxcb-cursor0_0.1.1-3ubuntu1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libconfuse0_2.7-5_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libconfuse0_2.7-5_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libtypes-serialiser-perl_1.0-1_all.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libtypes-serialiser-perl_1.0-1_all.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libev4_1%3a4.22-1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libev4_1%3a4.22-1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/i3_4.12-2~~xenial1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/i3_4.12-2~~xenial1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libcommon-sense-perl_3.74-1build1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libcommon-sense-perl_3.74-1build1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/i3lock_2.8-1~~xenial1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/i3lock_2.8-1~~xenial1_amd64.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libanyevent-i3-perl_0.16-1_all.deb
+
+07/19 07:54:48 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libanyevent-i3-perl_0.16-1_all.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/i3status_2.10-1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/i3status_2.10-1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libxdg-basedir1_1.2.0-1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libxdg-basedir1_1.2.0-1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libasync-interrupt-perl_1.21-1build1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libasync-interrupt-perl_1.21-1build1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libguard-perl_1.023-1build1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libguard-perl_1.023-1build1_amd64.deb
+[DL:0.9MiB][#89b4b3 192KiB/712KiB(26%)][#2d8f99 64KiB/354KiB(18%)][#fd08bd 48KiB/76KiB(62%)][#905cfc 32KiB/225KiB(14%)][#dea9a6 32KiB/51KiB(62%)](+1)
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/dunst_1.1.0-2_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/dunst_1.1.0-2_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/suckless-tools_42-1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/suckless-tools_42-1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libjson-xs-perl_3.010-2build1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libjson-xs-perl_3.010-2build1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/i3-wm_4.12-2~~xenial1_amd64.deb
+
+07/19 07:54:49 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/i3-wm_4.12-2~~xenial1_amd64.deb
+[DL:865KiB][#2d8f99 192KiB/354KiB(54%)][#905cfc 160KiB/225KiB(70%)]
+
+07/19 07:54:50 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libev-perl_4.22-1_amd64.deb
+
+07/19 07:54:50 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libev-perl_4.22-1_amd64.deb
+
+07/19 07:54:51 [[1;32mNOTICE[0m] Verification finished successfully. file=/var/cache/apt/archives/apt-fast/libanyevent-perl_7.120-1_amd64.deb
+
+07/19 07:54:51 [[1;32mNOTICE[0m] Download complete: /var/cache/apt/archives/apt-fast/libanyevent-perl_7.120-1_amd64.deb
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+0a1070|OK  |   2.4MiB/s|/var/cache/apt/archives/apt-fast/libxcb-xinerama0_1.11.1-1ubuntu1_amd64.deb
+8d5376|OK  |        n/a|/var/cache/apt/archives/apt-fast/libconfuse-common_2.7-5_all.deb
+22404d|OK  |   0.9MiB/s|/var/cache/apt/archives/apt-fast/libxcb-cursor0_0.1.1-3ubuntu1_amd64.deb
+daaa40|OK  |   135KiB/s|/var/cache/apt/archives/apt-fast/libconfuse0_2.7-5_amd64.deb
+b1f88f|OK  |   1.4MiB/s|/var/cache/apt/archives/apt-fast/libtypes-serialiser-perl_1.0-1_all.deb
+f4b3b4|OK  |   169KiB/s|/var/cache/apt/archives/apt-fast/libev4_1%3a4.22-1_amd64.deb
+5ea496|OK  |    95KiB/s|/var/cache/apt/archives/apt-fast/i3_4.12-2~~xenial1_amd64.deb
+d055ff|OK  |   148KiB/s|/var/cache/apt/archives/apt-fast/libcommon-sense-perl_3.74-1build1_amd64.deb
+e9f1a8|OK  |    90KiB/s|/var/cache/apt/archives/apt-fast/i3lock_2.8-1~~xenial1_amd64.deb
+a4ef7c|OK  |   1.5MiB/s|/var/cache/apt/archives/apt-fast/libanyevent-i3-perl_0.16-1_all.deb
+256b4a|OK  |    92KiB/s|/var/cache/apt/archives/apt-fast/i3status_2.10-1_amd64.deb
+d92e27|OK  |   1.1MiB/s|/var/cache/apt/archives/apt-fast/libxdg-basedir1_1.2.0-1_amd64.deb
+063f64|OK  |   104KiB/s|/var/cache/apt/archives/apt-fast/libasync-interrupt-perl_1.21-1build1_amd64.deb
+c15cab|OK  |    86KiB/s|/var/cache/apt/archives/apt-fast/libguard-perl_1.023-1build1_amd64.deb
+d5f604|OK  |   114KiB/s|/var/cache/apt/archives/apt-fast/dunst_1.1.0-2_amd64.deb
+dea9a6|OK  |   113KiB/s|/var/cache/apt/archives/apt-fast/suckless-tools_42-1_amd64.deb
+fd08bd|OK  |   104KiB/s|/var/cache/apt/archives/apt-fast/libjson-xs-perl_3.010-2build1_amd64.deb
+89b4b3|OK  |   515KiB/s|/var/cache/apt/archives/apt-fast/i3-wm_4.12-2~~xenial1_amd64.deb
+905cfc|OK  |   132KiB/s|/var/cache/apt/archives/apt-fast/libev-perl_4.22-1_amd64.deb
+2d8f99|OK  |   140KiB/s|/var/cache/apt/archives/apt-fast/libanyevent-perl_7.120-1_amd64.deb
+
+Status Legend:
+(OK):download completed.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  dunst i3-wm i3lock i3status libanyevent-i3-perl libanyevent-perl
+  libasync-interrupt-perl libcommon-sense-perl libconfuse-common libconfuse0
+  libev-perl libev4 libguard-perl libjson-xs-perl libtypes-serialiser-perl
+  libxcb-cursor0 libxcb-xinerama0 libxdg-basedir1 suckless-tools
+Suggested packages:
+  libevent-perl libio-async-perl libpoe-perl libtask-weaken-perl dwm stterm
+  surf
+The following NEW packages will be installed:
+  dunst i3 i3-wm i3lock i3status libanyevent-i3-perl libanyevent-perl
+  libasync-interrupt-perl libcommon-sense-perl libconfuse-common libconfuse0
+  libev-perl libev4 libguard-perl libjson-xs-perl libtypes-serialiser-perl
+  libxcb-cursor0 libxcb-xinerama0 libxdg-basedir1 suckless-tools
+0 upgraded, 20 newly installed, 0 to remove and 336 not upgraded.
+Need to get 0 B/1,737 kB of archives.
+After this operation, 4,892 kB of additional disk space will be used.
+Selecting previously unselected package libconfuse-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 177024 files and directories currently installed.)
+Preparing to unpack .../libconfuse-common_2.7-5_all.deb ...
+Unpacking libconfuse-common (2.7-5) ...
+Selecting previously unselected package libconfuse0:amd64.
+Preparing to unpack .../libconfuse0_2.7-5_amd64.deb ...
+Unpacking libconfuse0:amd64 (2.7-5) ...
+Selecting previously unselected package libxcb-cursor0:amd64.
+Preparing to unpack .../libxcb-cursor0_0.1.1-3ubuntu1_amd64.deb ...
+Unpacking libxcb-cursor0:amd64 (0.1.1-3ubuntu1) ...
+Selecting previously unselected package libev4.
+Preparing to unpack .../libev4_1%3a4.22-1_amd64.deb ...
+Unpacking libev4 (1:4.22-1) ...
+Selecting previously unselected package libxcb-xinerama0:amd64.
+Preparing to unpack .../libxcb-xinerama0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-xinerama0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package i3lock.
+Preparing to unpack .../i3lock_2.8-1~~xenial1_amd64.deb ...
+Unpacking i3lock (2.8-1~~xenial1) ...
+Selecting previously unselected package i3status.
+Preparing to unpack .../i3status_2.10-1_amd64.deb ...
+Unpacking i3status (2.10-1) ...
+Selecting previously unselected package libanyevent-perl.
+Preparing to unpack .../libanyevent-perl_7.120-1_amd64.deb ...
+Unpacking libanyevent-perl (7.120-1) ...
+Selecting previously unselected package libcommon-sense-perl.
+Preparing to unpack .../libcommon-sense-perl_3.74-1build1_amd64.deb ...
+Unpacking libcommon-sense-perl (3.74-1build1) ...
+Selecting previously unselected package libtypes-serialiser-perl.
+Preparing to unpack .../libtypes-serialiser-perl_1.0-1_all.deb ...
+Unpacking libtypes-serialiser-perl (1.0-1) ...
+Selecting previously unselected package libjson-xs-perl.
+Preparing to unpack .../libjson-xs-perl_3.010-2build1_amd64.deb ...
+Unpacking libjson-xs-perl (3.010-2build1) ...
+Selecting previously unselected package libanyevent-i3-perl.
+Preparing to unpack .../libanyevent-i3-perl_0.16-1_all.deb ...
+Unpacking libanyevent-i3-perl (0.16-1) ...
+Selecting previously unselected package libasync-interrupt-perl.
+Preparing to unpack .../libasync-interrupt-perl_1.21-1build1_amd64.deb ...
+Unpacking libasync-interrupt-perl (1.21-1build1) ...
+Selecting previously unselected package libev-perl.
+Preparing to unpack .../libev-perl_4.22-1_amd64.deb ...
+Unpacking libev-perl (4.22-1) ...
+Selecting previously unselected package libguard-perl.
+Preparing to unpack .../libguard-perl_1.023-1build1_amd64.deb ...
+Unpacking libguard-perl (1.023-1build1) ...
+Selecting previously unselected package suckless-tools.
+Preparing to unpack .../suckless-tools_42-1_amd64.deb ...
+Unpacking suckless-tools (42-1) ...
+Selecting previously unselected package libxdg-basedir1.
+Preparing to unpack .../libxdg-basedir1_1.2.0-1_amd64.deb ...
+Unpacking libxdg-basedir1 (1.2.0-1) ...
+Selecting previously unselected package dunst.
+Preparing to unpack .../dunst_1.1.0-2_amd64.deb ...
+Unpacking dunst (1.1.0-2) ...
+Selecting previously unselected package i3-wm.
+Preparing to unpack .../i3-wm_4.12-2~~xenial1_amd64.deb ...
+Unpacking i3-wm (4.12-2~~xenial1) ...
+Selecting previously unselected package i3.
+Preparing to unpack .../i3_4.12-2~~xenial1_amd64.deb ...
+Unpacking i3 (4.12-2~~xenial1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 1 added doc-base file...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160415-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Setting up libconfuse-common (2.7-5) ...
+Setting up libconfuse0:amd64 (2.7-5) ...
+Setting up libxcb-cursor0:amd64 (0.1.1-3ubuntu1) ...
+Setting up libev4 (1:4.22-1) ...
+Setting up libxcb-xinerama0:amd64 (1.11.1-1ubuntu1) ...
+Setting up i3lock (2.8-1~~xenial1) ...
+Setting up i3status (2.10-1) ...
+Setting up libanyevent-perl (7.120-1) ...
+Setting up libcommon-sense-perl (3.74-1build1) ...
+Setting up libtypes-serialiser-perl (1.0-1) ...
+Setting up libjson-xs-perl (3.010-2build1) ...
+Setting up libanyevent-i3-perl (0.16-1) ...
+Setting up libasync-interrupt-perl (1.21-1build1) ...
+Setting up libev-perl (4.22-1) ...
+Setting up libguard-perl (1.023-1build1) ...
+Setting up suckless-tools (42-1) ...
+Setting up libxdg-basedir1 (1.2.0-1) ...
+Setting up dunst (1.1.0-2) ...
+Setting up i3-wm (4.12-2~~xenial1) ...
+update-alternatives: using /usr/bin/i3 to provide /usr/bin/x-window-manager (x-window-manager) in auto mode
+Setting up i3 (4.12-2~~xenial1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...

@@ -1,0 +1,54 @@
+gpg: keyring `/tmp/tmpv9s4bj1v/secring.gpg' created
+gpg: keyring `/tmp/tmpv9s4bj1v/pubring.gpg' created
+gpg: requesting key EEA14886 from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpv9s4bj1v/trustdb.gpg: trustdb created
+gpg: key EEA14886: public key "Launchpad VLC" imported
+gpg: no ultimately trusted keys found
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+gpg: keyring `/tmp/tmp6s9e12mf/secring.gpg' created
+gpg: keyring `/tmp/tmp6s9e12mf/pubring.gpg' created
+gpg: requesting key EEA14886 from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmp6s9e12mf/trustdb.gpg: trustdb created
+gpg: key EEA14886: public key "Launchpad VLC" imported
+gpg: no ultimately trusted keys found
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+gpg: keyring `/tmp/tmpla55r89f/secring.gpg' created
+gpg: keyring `/tmp/tmpla55r89f/pubring.gpg' created
+gpg: requesting key EEA14886 from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpla55r89f/trustdb.gpg: trustdb created
+gpg: key EEA14886: public key "Launchpad VLC" imported
+gpg: no ultimately trusted keys found
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+gpg: keyring `/tmp/tmpiz3w5v65/secring.gpg' created
+gpg: keyring `/tmp/tmpiz3w5v65/pubring.gpg' created
+gpg: requesting key EEA14886 from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpiz3w5v65/trustdb.gpg: trustdb created
+gpg: key EEA14886: public key "Launchpad VLC" imported
+gpg: no ultimately trusted keys found
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+AppStream cache update completed, but some metadata was ignored due to errors.
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+W: Operation was interrupted before it could finish
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+W: GPG error: http://debian.sur5r.net/i3 xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY E3CA1A89941C42E6
+W: The repository 'http://debian.sur5r.net/i3 xenial InRelease' is not signed.
+W: There is no public key available for the following key IDs:
+E3CA1A89941C42E6  
