@@ -228,3 +228,9 @@ while ! curl --output /dev/null --silent --head --fail "https://example.com/help
 
 # docker inspect IP
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
+
+# Aria2 start rpc (for use with YAAW) and save session
+aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all --rpc-secret=mySecret --save-session=aria2.session
+
+# Aria2 continue session
+aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all --rpc-secret=mySecret --continue --input-file=aria2.session
