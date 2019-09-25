@@ -232,5 +232,5 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' con
 # Aria2 start rpc (for use with YAAW) and save session
 aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all --rpc-secret=mySecret --save-session=aria2.session
 
-# Aria2 continue session
-aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all --rpc-secret=mySecret --continue --input-file=aria2.session
+# Aria2 continue session (need to keep save-session if you want to be able to restart again and again)
+aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all --rpc-secret=mySecret  --continue --input-file=aria2.session --save-session=aria2.session
