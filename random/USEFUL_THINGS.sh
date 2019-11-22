@@ -110,7 +110,7 @@ done
 curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
 
 # VPN using tunneling
-sshuttle -r mbtamuli1994@mbtamuli1994.koding.io:443 0/0 -vv
+sshuttle -r username@host 0/0 -vv
 
 # Mirror a site
 nohup wget --limit-rate=200k --no-clobber --convert-links --random-wait -r -p -E -e robots=off -U mozilla http://www.example.com &
