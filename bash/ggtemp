@@ -1,0 +1,3 @@
+#!/bin/sh
+PROFILEDIR=$(mktemp -d /tmp/googlechrome.XXXXXX)
+google-chrome-stable --user-data-dir=$PROFILEDIR --no-first-run
