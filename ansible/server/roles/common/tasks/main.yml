@@ -7,3 +7,18 @@
         - vim
         - zsh
     state: present
+  become: yes
+  become_method: sudo
+
+- name: Create user
+  user:
+    name: mbtamuli
+    shell: /bin/zsh
+  become: yes
+  become_method: sudo
+
+- name: Setup dotfiles
+  git:
+    repo: 'https://github.com/mbtamuli/dotfiles.git'
+    dest: /home/mbtamuli/.cfg
+    bare: yes
