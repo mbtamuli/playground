@@ -1,0 +1,9 @@
+---
+- name: Setup the server as per @mbtamuli's preference
+  hosts: all
+  remote_user: mbtamuli
+  become: yes
+  become_method: sudo
+
+  roles:
+    - common

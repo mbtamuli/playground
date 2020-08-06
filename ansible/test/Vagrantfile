@@ -1,0 +1,23 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/bionic64"
+  # config.vm.network "private_network", ip: "192.168.33.10"
+  # config.vm.synced_folder "../data", "/vagrant_data"
+  # config.vm.provider "virtualbox" do |vb|
+  #   vb.gui = true
+  #   vb.memory = "1024"
+  # end
+  config.vm.provision "shell", inline: <<-'SHELL'
+    USER="mbtamuli"
+    SSH_PUB_KEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBry/cIZBuia70bJJr+mLzCIwU/H1SjfPogScej+CJGZ mbtamuli@techfreak-2020-07-27"
+    useradd --create-home --shell /bin/bash "$USER"
+    echo "$USER ALL=(ALL) NOPASSWD: ALL" | tee /etc/sudoers.d/${USER}
+    mkdir --parents /home/${USER}/.ssh
+    echo "$SSH_PUB_KEY" | tee /home/${USER}/.ssh/authorized_keys
+    chown --recursive ${USER}:${USER} /home/${USER}/.ssh
+    DEFAULT_ROUTE=$(ip route show default | awk '/default/ {print $3}')
+    echo "Acquire::http { Proxy \"http://${DEFAULT_ROUTE}:3142\"; };" | tee /etc/apt/apt.conf.d/01proxy
+  SHELL
+end

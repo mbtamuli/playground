@@ -1,0 +1,3 @@
+.vagrant/
+*.log
+apt-cacher/apt-cacher-ng-cache/

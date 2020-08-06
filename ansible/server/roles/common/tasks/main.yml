@@ -1,0 +1,9 @@
+---
+- name: install the required packages
+  package:
+    name:
+        - git
+        - tmux
+        - vim
+        - zsh
+    state: present
