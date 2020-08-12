@@ -164,7 +164,7 @@ newgrp {group}
 docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <container-name>
 
 # To mount a disk to be writable by non-root user
-mount -o gid=users,fmask=113,dmask=002 /dev/sda1 /mnt/usbstick
+sudo mount /dev/sda1 -o gid=$USER,uid=$USER,fmask=113,dmask=002 /mnt/usbstick
 
 # add eax, ebx and store result in eax in assembly, hexadecimal and binary
 [add eax, ebx] = [03 C3] = [00000011 11000011]
