@@ -234,3 +234,7 @@ aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all --rpc-secret=my
 
 # Aria2 continue session (need to keep save-session if you want to be able to restart again and again)
 aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all --rpc-secret=mySecret  --continue --input-file=aria2.session --save-session=aria2.session
+
+# List all installed packages in Arch Linux and format as CSV
+pacman -Qqe | sed 's/^\|$/"/g'|paste -sd, -
+
