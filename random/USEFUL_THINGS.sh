@@ -70,6 +70,7 @@ rename -v 's/(\.04\s)([\w|\s]*)(\..*)/($2).mp4/g' *
 scp -P 2222 file.ext username@domain:~/
 
 # Generate a new SSH key
+ssh-keygen -t ed25519 -C "$(whoami)@$(uname -n)-$(date -I)"
 ssh-keygen -t rsa -b 4096 -C "mbtamuli@gmail.com"
 # Generate public key from private key
 ssh-keygen -f <private_key> -y > <public_key>
