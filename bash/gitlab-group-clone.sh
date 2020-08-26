@@ -21,10 +21,10 @@ repo_list=$(curl \
     --header "Content-Type: application/json" \
     --request POST \
     --data @- \
-    "${GITLAB_BASE_URL}/api/graphql" <<< "$GRAPHQL_QUERY" | jq -r '.data.group.projects.nodes[] | "\(.name),\(.sshUrlToRepo)"')
+    "${GITLAB_BASE_URL}/api/graphql" <<< "$GRAPHQL_QUERY" | jq --raw-output '.data.group.projects.nodes[] | "\(.name),\(.sshUrlToRepo)"')
 while IFS= read -r line; do
-    name="$(echo $line | cut -d',' -f1)"
-    url="$(echo $line | cut -d',' -f2)"
+    name="$(echo $line | cut --delimiter=',' --fields=1)"
+    url="$(echo $line | cut --delimiter=',' --fields=2)"
     echo "Cloning $name"
     git clone $url
 done <<< "$repo_list"
