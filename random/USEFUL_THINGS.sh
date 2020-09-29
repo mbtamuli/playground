@@ -239,3 +239,8 @@ aria2c --enable-rpc --rpc-listen-all=true --rpc-allow-origin-all --rpc-secret=my
 # List all installed packages in Arch Linux and format as CSV
 pacman -Qqe | sed 's/^\|$/"/g'|paste -sd, -
 
+# If checking variable, check using
+if [ -n "${TARGETARCH:-}" ]; then
+# instead of 
+if [ -n "${TARGETARCH}" ]; then
+# This ensures it works if TARGETARCH is undefined and we set -u
