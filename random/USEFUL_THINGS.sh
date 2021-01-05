@@ -247,3 +247,6 @@ if [ -n "${TARGETARCH}" ]; then
 
 # Download blob video source with m3u8 link
 ffmpeg -i "http://path/to/file.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -crf 50 file.mp4
+
+# Delete a file securely
+shred -fuzv -n 38 filename
