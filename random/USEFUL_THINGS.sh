@@ -250,3 +250,11 @@ ffmpeg -i "http://path/to/file.m3u8" -bsf:a aac_adtstoasc -vcodec copy -c copy -
 
 # Delete a file securely
 shred -fuzv -n 38 filename
+
+# Gcloud sane defaults
+gcloud compute instances create controller \
+    --async \
+    --boot-disk-size 200GB \
+    --image-family ubuntu-2004-lts \
+    --image-project ubuntu-os-cloud \
+    --machine-type e2-standard-2
