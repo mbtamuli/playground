@@ -258,3 +258,18 @@ gcloud compute instances create controller \
     --image-family ubuntu-2004-lts \
     --image-project ubuntu-os-cloud \
     --machine-type e2-standard-2
+
+# gpg export private key
+gpg --armor --export-secret-keys --output mbtamuli.asc mbtamuli@gmail.com
+
+# gpg import private key
+gpg --import mbtamuli.asc
+
+# gpg export encrypted private key
+# generate a strong random password
+gpg --armor --gen-random 1 20
+# encrypt key, use password above when asked
+gpg --armor --export-secret-keys mbtamuli@gmail.com | gpg --armor --symmetric --output mbtamuli.sec.asc
+
+# gpg import encrypted private key
+gpg --decrypt mbtamuli.sec.asc | gpg --import
