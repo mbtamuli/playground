@@ -259,6 +259,9 @@ gcloud compute instances create controller \
     --image-project ubuntu-os-cloud \
     --machine-type e2-standard-2
 
+# gpg export public key
+gpg --output mbtamuli-public.pgp --armor --export mbtamuli@gmail.com
+
 # gpg export private key
 gpg --armor --export-secret-keys --output mbtamuli.asc mbtamuli@gmail.com
 
