@@ -257,7 +257,7 @@ gcloud compute instances create controller \
     --boot-disk-size 200GB \
     --image-family ubuntu-2004-lts \
     --image-project ubuntu-os-cloud \
-    --machine-type e2-standard-2
+    --machine-type e2-medium
 
 # gpg export public key
 gpg --output mbtamuli-public.pgp --armor --export mbtamuli@gmail.com
