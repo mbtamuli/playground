@@ -276,3 +276,7 @@ gpg --armor --export-secret-keys mbtamuli@gmail.com | gpg --armor --symmetric --
 
 # gpg import encrypted private key
 gpg --decrypt mbtamuli.sec.asc | gpg --import
+
+# A directory contains multiple sub-directory with Go code, and might have an executable in each sub-directory.
+# The following find command will delete all the binaries only. Tested on macOS, might need tweaking on Linux
+find . -type f -exec sh -c 'for x; do if [[ $(file "$x") == *"executable"* ]]; then rm $x; fi; done' _ {} +
