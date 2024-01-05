@@ -241,7 +241,7 @@ pacman -Qqe | sed 's/^\|$/"/g'|paste -sd, -
 
 # If checking variable, check using
 if [ -n "${TARGETARCH:-}" ]; then
-# instead of 
+# instead of
 if [ -n "${TARGETARCH}" ]; then
 # This ensures it works if TARGETARCH is undefined and we set -u
 
@@ -280,3 +280,13 @@ gpg --decrypt mbtamuli.sec.asc | gpg --import
 # A directory contains multiple sub-directory with Go code, and might have an executable in each sub-directory.
 # The following find command will delete all the binaries only. Tested on macOS, might need tweaking on Linux
 find . -type f -exec sh -c 'for x; do if [[ $(file "$x") == *"executable"* ]]; then rm $x; fi; done' _ {} +
+
+
+# This will delete all (well, up to 20, or whatever you set in --limit) your workflow runs.
+# You can add flags to gh run list to filter runs by workflow or by triggering user.
+# Source: https://blog.oddbit.com/post/2022-09-22-delete-workflow-runs/
+cd /path/to/github/repository
+gh run list --json databaseId  -q '.[].databaseId' |
+  xargs -IID gh api \
+    "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/actions/runs/ID" \
+    -X DELETE
