@@ -290,3 +290,7 @@ gh run list --json databaseId  -q '.[].databaseId' |
   xargs -IID gh api \
     "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/actions/runs/ID" \
     -X DELETE
+
+# Delete all workflows - well this is a cheat, just set the limit to much higher than the worklow runs you have
+cd /path/to/github/repository
+gh run list --json databaseId -q '.[].databaseId' --limit 10000 | xargs -IID gh run delete ID
