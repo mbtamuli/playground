@@ -285,12 +285,14 @@ find . -type f -exec sh -c 'for x; do if [[ $(file "$x") == *"executable"* ]]; t
 # This will delete all (well, up to 20, or whatever you set in --limit) your workflow runs.
 # You can add flags to gh run list to filter runs by workflow or by triggering user.
 # Source: https://blog.oddbit.com/post/2022-09-22-delete-workflow-runs/
-cd /path/to/github/repository
-gh run list --json databaseId  -q '.[].databaseId' |
-  xargs -IID gh api \
-    "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/actions/runs/ID" \
-    -X DELETE
+# cd /path/to/github/repository
+# gh run list --json databaseId  -q '.[].databaseId' |
+#   xargs -IID gh api \
+#     "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/actions/runs/ID" \
+#     -X DELETE
+# There is a better way, see the next command. `gh run delete` basically calls the same API
 
 # Delete all workflows - well this is a cheat, just set the limit to much higher than the worklow runs you have
+# https://github.com/cli/cli/issues/6449#issuecomment-1336131926
 cd /path/to/github/repository
-gh run list --json databaseId -q '.[].databaseId' --limit 10000 | xargs -IID gh run delete ID
+gh run list --json databaseId -q '.[].databaseId' --limit 10000 | xargs -IID -P 15 gh run delete ID
