@@ -259,23 +259,59 @@ gcloud compute instances create controller \
     --image-project ubuntu-os-cloud \
     --machine-type e2-medium
 
-# gpg export public key
-gpg --output mbtamuli-public.pgp --armor --export mbtamuli@gmail.com
+###
+# START # unencrypted key
+###
+
+# gpg export armored public key
+gpg --armor --export --output public.asc mbtamuli@gmail.com
 
 # gpg export private key
-gpg --armor --export-secret-keys --output mbtamuli.asc mbtamuli@gmail.com
+gpg --armor --export-secret-keys --output private.asc mbtamuli@gmail.com
 
 # gpg import private key
 gpg --import mbtamuli.asc
 
-# gpg export encrypted private key
+###
+# END # unencrypted key
+###
+
+###
+# START # encrypted key
+###
+
 # generate a strong random password
 gpg --armor --gen-random 1 20
+
 # encrypt key, use password above when asked
 gpg --armor --export-secret-keys mbtamuli@gmail.com | gpg --armor --symmetric --output mbtamuli.sec.asc
 
 # gpg import encrypted private key
 gpg --decrypt mbtamuli.sec.asc | gpg --import
+
+###
+# END # encrypted key
+###
+
+###
+# START # passforios
+###
+# Prerequisite -  Use `unencrypted key` method.
+
+gh repo clone yishilin14/asc-key-to-qr-code-gif
+cd asc-key-to-qr-code-gif
+docker build . -t asc-key-to-qr-code-gif
+cd ..
+docker run --rm -v $(pwd):/data -e "SRC=/data/public.asc" -e "DST=/data/public.gif" asc-key-to-qr-code-gif
+docker run --rm -v $(pwd):/data -e "SRC=/data/private.asc" -e "DST=/data/private.gif" asc-key-to-qr-code-gif
+rm -rf asc-key-to-qr-code-gif
+
+# Use ASCII-Armor Key option in passforios app
+
+###
+# END # passforios
+###
+
 
 # A directory contains multiple sub-directory with Go code, and might have an executable in each sub-directory.
 # The following find command will delete all the binaries only. Tested on macOS, might need tweaking on Linux
